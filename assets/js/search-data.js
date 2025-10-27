@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-continuous-autoregressive-language-models",
+        
+          title: "Continuous Autoregressive Language Models",
+        
+        description: "an in-depth explanation of the paper &quot;Continuous Autoregressive Language Models&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/CALM/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -356,17 +367,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-continuous-autoregressive-language-models",
-        
-          title: "Continuous Autoregressive Language Models",
-        
-        description: "an in-depth explanation of the paper &quot;Continuous Autoregressive Language Models&quot;",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/CALM/";
           
         },
       },{id: "post-a-distill-style-blog-post",
