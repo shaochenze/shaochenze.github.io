@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "books-the-godfather",
+        },{id: "post-continuous-autoregressive-language-models",
+        
+          title: "Continuous Autoregressive Language Models",
+        
+        description: "from discrete next-token prediction to continuous next-vector prediction",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/CALM/";
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
